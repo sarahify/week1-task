@@ -1,3 +1,119 @@
-p {
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.col {
+  background-color: rgb(186, 229, 229);
+  height: 70vh;
+  padding-top: 2rem;
+  /* margin: 0 2rem; */
+}
+.header {
+  margin-left: 4rem;
+  /* color: red; */
+}
+p{
+  text-align: center;
+}
+
+img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cont {
+  width: 30rem;
+  height: 10rem;
+
+  padding: 4rem 3rem;
+  background-color: white;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i {
+  font-size: 1.5rem;
+}
+.fa-twitter {
+  color: rgb(27, 132, 230);
+}
+.fa-heart-o {
   color: red;
+}
+.sec {
+  display: flex;
+  line-height: 0.3;
+  column-gap: 7px;
+}
+
+.name {
+  font-weight: bolder;
+}
+.username {
+  color: gray;
+}
+
+.ify {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+.container {
+  width: 30rem;
+
+  padding: 4rem 3rem;
+  background-color: white;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.text{
+  width: 450px;
+  color: grey;
+}
+.span{
+  font-size: small;
+  color: gray;
+}
+.underline{
+  width: 100%;
+  color: gray;
+}
+.dollar{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.inner{
+  border: solid red;
+  width: 400px;
+  height: 400px;
+  padding: 0px;
+}
+
+.fas{
+  display: flex;
+  justify-content: space-around;
+  /* width: 350px; */
+}
+
+.middle{
+  display: flex;
+ justify-content: center; 
+}
+.dark-blue{
+  background-color: blue;
 }
